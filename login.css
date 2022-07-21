@@ -1,0 +1,56 @@
+body{
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+    background-color: #80c2af;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.usernamepassword{
+    width: 500px;
+    max-width: 500px;
+    margin: 15px;
+    padding: 35px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #D7B9D5;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 100px;
+    font-size: 18px;
+    
+}
+
+.form > *:first-child {
+    margin-bottom: 0;
+}
+
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+.form__title {
+    text-align: center;
+padding-bottom: 30px;
+}
+
+.form__message {
+    text-align: center;
+
+}
+
+.form__message--success {
+   color: var(--color-success)
+}
+
+.form__message--error {
+    color: var(--color-error)
+ }
+
+ .form__input-group {
+    padding: 5px;
+ }
